@@ -38,4 +38,4 @@ Open and run the notebooks in order:
 1. `eda.ipynb` - Data exploration and visualization
 2. `forecasting.ipynb` - LSTM and Prophet forecasting models
 
-Exported HTML versions are available in `exports/` for quick viewing without running the notebooks.
+To view the exported HTML notebooks in your browser, open them with `file:///path/to/exports/eda.html` or simply drag them into your browser.
