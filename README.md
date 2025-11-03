@@ -1,41 +1,23 @@
 # PV EDA & Prediction
 
-Solar panel data analysis and time series forecasting using LSTM and Prophet models.
+Solar panel data analysis and time series forecasting with self-sufficiency analysis.
 
 ## Prerequisites
 
 - [uv](https://docs.astral.sh/uv/getting-started/installation/) package manager
-- Python 3.12+
 
 ## Setup
 
 ```bash
-# Install dependencies
 uv sync
-
-# Start Jupyter Lab
 uv run jupyter lab
-```
-
-## Project Structure
-
-```
-├── data/
-│   ├── pv_data.csv          # Solar panel production data
-│   └── weather.csv          # Weather data
-├── eda.ipynb                # Exploratory data analysis
-├── forecasting.ipynb        # Time series forecasting models
-├── lstm_model.py            # LSTM model implementation
-├── exports/
-│   ├── eda.html             # Exported EDA notebook
-│   └── forecasting.html     # Exported forecasting notebook
-└── pyproject.toml           # Project dependencies
 ```
 
 ## Usage
 
-Open and run the notebooks in order:
-1. `eda.ipynb` - Data exploration and visualization
-2. `forecasting.ipynb` - LSTM and Prophet forecasting models
+Run the notebooks in order:
 
-To view the exported HTML notebooks in your browser, open them with `file:///path/to/exports/eda.html` or simply drag them into your browser.
+1. **01_eda.ipynb** - Exploratory data analysis of solar panel production and weather data with visualizations
+2. **02_forecasting.ipynb** - Time series forecasting using LSTM and Prophet models
+3. **03_self_sufficiency_analysis.ipynb** - Energy self-sufficiency analysis and optimization strategies
+
